@@ -1,66 +1,198 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>HTML workshop</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-    <title>HTML workshop</title>
-    <link rel="shortcut icon" href="ferrari.jpg" />
-</head>
-
-<body>
-    <!------------------ Header section ------------------->
-    <header>
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#Resume">Resume</a></li>
-            <li><a href="#Work">Work</a></li>
-        </ul>
-    </header>
-    <hr>
-    <!------------------ main section ------------------->
-    <main>
-        <!------------------ about section ------------------->
-        <section>
-            <img src="C:\image\ferrari.jpg" alt="Developer_pic" width="400px" height="350px">
-            <p>As a pationate with the new technologie, I choose the web development because it's a world where every
-                thing move so fast, there is always something new to learn, every day is a new challenge for me.</p>
-            <ol type="i">
-                <li>Name: Doe</li>
-                <li>Last Name: John</li>
-                <li>Email: wassim.ellafi@gmail.com</li>
-                <li>Phone Number:20212021</li>
-                <li>Academic backgound:
-                    <ol>
-                        <li><a href="https://gomycode.com/TN-FR/home" target="_blank">GoMyCode</a> certificat</li>
-                        <li>Computer science bachelor degree</li>
-                    </ol>
+    <body>
+        <!------------------ Header section ------------------->
+        <header>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li style="float:right">
+                    <a class="active" href="#about">About</a>
                 </li>
-            </ol>
-            <hr>
-        </section>
-        <section id="video_section">
-            <video width="400px" height="300px" controls>
-                <source src="animals.mp4">
-            </video>
+            </ul>
+        </header>
+        <hr />
+        <!------------------ main section ------------------->
+        <main>
+            <!------------------ about section ------------------->
+            <section class="image">
+                <img
+                    src="C:\image\mercedes.jpg"
+                    alt="Developer_pic"
+                    width="400px"
+                    height="350px"
+                />
+                <p>
+                    As a pationate with the new technologie, I choose the web
+                    development because it's a world where every thing move so
+                    fast, there is always something new to learn, every day is a
+                    new challenge for me.
+                </p>
+            </section>
+            <section class="image">
+                <img
+                    src="C:\image\ferrari.jpg"
+                    alt="Developer_pic"
+                    width="400px"
+                    height="350px"
+                />
+                <p>
+                    As a pationate with the new technologie, I choose the web
+                    development because it's a world where every thing move so
+                    fast, there is always something new to learn, every day is a
+                    new challenge for me.
+                </p>
+            </section>
+            <section class="image">
+                <img
+                    src="C:\image\mercedes.jpg"
+                    alt="Developer_pic"
+                    width="400px"
+                    height="350px"
+                />
+                <p>
+                    As a pationate with the new technologie, I choose the web
+                    development because it's a world where every thing move so
+                    fast, there is always something new to learn, every day is a
+                    new challenge for me.
+                </p>
+            </section>
+            <section class="image">
+                <img
+                    src="C:\image\audi.jpg"
+                    alt="Developer_pic"
+                    width="400px"
+                    height="350px"
+                />
+                <p>
+                    As a pationate with the new technologie, I choose the web
+                    development because it's a world where every thing move so
+                    fast, there is always something new to learn, every day is a
+                    new challenge for me.
+                </p>
+            </section>
+            <section class="image">
+                <img
+                    src="C:\image\audi.jpg"
+                    alt="Developer_pic"
+                    width="400px"
+                    height="350px"
+                />
+                <p>
+                    As a pationate with the new technologie, I choose the web
+                    development because it's a world where every thing move so
+                    fast, there is always something new to learn, every day is a
+                    new challenge for me.
+                </p>
+            </section>
+            <section class="image">
+                <img
+                    src="C:\image\ferrari.jpg"
+                    alt="Developer_pic"
+                    width="400px"
+                    height="350px"
+                />
+                <p>
+                    As a pationate with the new technologie, I choose the web
+                    development because it's a world where every thing move so
+                    fast, there is always something new to learn, every day is a
+                    new challenge for me.
+                </p>
+            </section>
 
-        </section>
-        <section>
-            <iframe width="420" height="315" src="https://www.youtube.com/embed/zcTFG_F0FRs"></iframe>
-        </section>
-    </main>
-    <!------------------ footer section ------------------->
-    <footer id="contact">
-        <a href="" name="formulaire"></a>
-        <form>
-            <label>Full Name: </label>
-            <input type="text">
-            <label>Email: </label>
-            <input type="email">
-            <label>Date: </label>
-            <input type="date">
-        </form>
-    </footer>
-</body>
+            <section>
+                <hr />
+                <ol id="contact" class="contact">
+                    <ul>
+                        Name: ellafi
+                    </ul>
+                    <ul>
+                        Last Name: wassim
+                    </ul>
+                    <ul>
+                        Email: wassim.ellafi@gmail.com
+                    </ul>
+                    <ul>
+                        Phone Number:20212021
+                    </ul>
+                    <ul>
+                        Academic backgound:
+                        <ol>
+                            <ul>
+                                <a
+                                    href="https://gomycode.com/TN-FR/home"
+                                    target="_blank"
+                                    >GoMyCode</a
+                                >
+                                certificat
+                            </ul>
+                            <ul>
+                                Computer science bachelor degree
+                            </ul>
+                        </ol>
+                    </ul>
+                </ol>
 
+                <hr />
+            </section>
+            <section class="video" id="video_section">
+                <video width="420px" height="315px" controls>
+                    <source src="animals.mp4" />
+                </video>
+            </section>
+            <section class="video">
+                <iframe
+                    width="420"
+                    height="315"
+                    src="https://www.youtube.com/embed/zcTFG_F0FRs"
+                ></iframe>
+            </section>
+            <section class="video">
+                <iframe
+                    width="420"
+                    height="315"
+                    src="https://www.youtube.com/embed/zcTFG_F0FRs"
+                ></iframe>
+            </section>
+            <section class="video">
+                <iframe
+                    width="420"
+                    height="315"
+                    src="https://www.youtube.com/embed/zcTFG_F0FRs"
+                ></iframe>
+            </section>
+        </main>
+        <!------------------ footer section ------------------->
+        <footer>
+            <form action="/ma-page-de-traitement">
+                <div>
+                    <label>Full Name: </label>
+                    <input id="name" type="text" />
+                </div>
+                <div>
+                    <label>Email: </label>
+                    <input id="email" type="email" />
+                </div>
+                <div>
+                    <label>Date: </label>
+                    <input id="date" type="date" />
+                </div>
+                <div class="button">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </footer>
+    </body>
 </html>
