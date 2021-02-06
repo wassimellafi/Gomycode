@@ -11,7 +11,7 @@
         />
     </head>
 
-    <body>
+    <body class="container">
         <!------------------ Header section ------------------->
         <header>
             <ul>
@@ -175,22 +175,48 @@
             </section>
         </main>
         <!------------------ footer section ------------------->
-        <footer>
+        <footer class="container">
             <form action="/ma-page-de-traitement">
-                <div>
-                    <label>Full Name: </label>
-                    <input id="name" type="text" />
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input
+                            type="text"
+                            id="fname"
+                            name="firstname"
+                            placeholder="Your name.."
+                        />
+                    </div>
                 </div>
-                <div>
-                    <label>Email: </label>
-                    <input id="email" type="email" />
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input
+                            type="text"
+                            id="lname"
+                            name="lastname"
+                            placeholder="Your last name.."
+                        />
+                    </div>
                 </div>
-                <div>
-                    <label>Date: </label>
-                    <input id="date" type="date" />
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Country</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="australia">Tunis</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="button">
-                    <button type="submit">Envoyer</button>
+                <div class="row">
+                    <input type="submit" value="Submit" />
                 </div>
             </form>
         </footer>
